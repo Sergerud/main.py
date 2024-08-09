@@ -1,0 +1,10 @@
+def f():
+    for i in range(0,1000,3):
+        a=i//5
+        b=0
+        for j in str(i):
+            b+=int(j)
+        if b<10 and a!=i/5:
+             print(i)
+
+f()            
